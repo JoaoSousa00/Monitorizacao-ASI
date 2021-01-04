@@ -4,19 +4,13 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-def check_db():
-    # Ligacao ao TinyDB
-    dbUsers = TinyDB('users')
-    dbData = TinyDB('data')
-    return [dbUsers, dbData]
+# Ligacao ao TinyDB
+dbUsers = TinyDB('DataBase/users')  # Guarda os utilizadores e os seus dados
+dbData = TinyDB('DataBase/data')  # Guarda os dados das máquinas dos utilizadores
 
 
 @app.route('/setData', methods=['POST'])  # GET requests will be blocked
 def setData():
-    myclient = check_db()
-
-    dbUsers = myclient[0]
-    dbData = myclient[1]
 
     req_data = request.get_json()
 
