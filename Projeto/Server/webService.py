@@ -1,16 +1,11 @@
-import os
-
 from flask import Flask, request
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 from datetime import datetime
-
-from Server.Logs import LogsTreatment
 
 app = Flask(__name__)
 
 # Ligacao ao TinyDB
-dbUsers = TinyDB('DataBase/users')  # Guarda os utilizadores e os seus dados
-dbData = TinyDB('DataBase/data')  # Guarda os dados das máquinas dos utilizadores
+dbData = TinyDB('DataBase/data')  # Guarda os dados das máquinas
 
 
 @app.route('/setData', methods=['POST'])  # GET requests will be blocked
@@ -29,9 +24,6 @@ def setData():
 
     dbData.insert({"total": total_mem})
 
-    os.system('python3 Logs/apache-fake-log-gen.py -n 100 -o LOG -p Logs/StoredLogs/')
-
-    print(LogsTreatment.getLogsInfo("Logs/StoredLogs"))
     # Find ALL
     print(dbData.all())
 

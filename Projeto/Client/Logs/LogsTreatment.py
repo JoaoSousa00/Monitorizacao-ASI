@@ -47,3 +47,4 @@ def getLogsInfo(path: str):
                         count_wp_admin_error += 1
 
     return [count_success, count_request_error, count_server_error, count_wp_admin_error]
+
