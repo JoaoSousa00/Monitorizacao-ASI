@@ -2,9 +2,12 @@ import os
 import re
 
 
-def getLogsInfo():
+def getLogsInfo(path: str):
     """
     Contagem apartir dos ficheiros dos logs.
+
+    :param path: Caminho da pasta que contêm os logs
+    :type path: str
 
     Returns: Retorna um array com 4 valores:
         *Nº de Logs com status 200;
@@ -24,9 +27,9 @@ def getLogsInfo():
     pattern4 = re.compile(r"^.*/wp-admin\sHTTP/1.0\"\s[4-5]\d{2}.*$")
     count_wp_admin_error = 0
 
-    for f in os.listdir("Logs"):
+    for f in os.listdir(path):
         if f.endswith(".log"):
-            with open("Logs/" + f) as fp:
+            with open(path + "/" + f) as fp:
                 for linha in fp:
                     match_success = pattern1.findall(linha)
                     match_request_error = pattern2.findall(linha)

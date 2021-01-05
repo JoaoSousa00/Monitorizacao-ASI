@@ -1,8 +1,9 @@
 import psutil
 import requests
+from Client.Dados import Memory
 
-total = dict(psutil.virtual_memory()._asdict())['total']
-free = dict(psutil.virtual_memory()._asdict())['available']
+total = Memory.getTotalMemory()
+free = Memory.getFreeMemory()
 
 data = {"total": total, "free": free}
 

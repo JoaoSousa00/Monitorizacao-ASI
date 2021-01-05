@@ -1,6 +1,10 @@
+import os
+
 from flask import Flask, request
 from tinydb import TinyDB, Query
 from datetime import datetime
+
+from Server.Logs import LogsTreatment
 
 app = Flask(__name__)
 
@@ -11,7 +15,6 @@ dbData = TinyDB('DataBase/data')  # Guarda os dados das máquinas dos utilizador
 
 @app.route('/setData', methods=['POST'])  # GET requests will be blocked
 def setData():
-
     req_data = request.get_json()
 
     total_mem = req_data['total']
@@ -24,8 +27,11 @@ def setData():
     ins["fields"] = {"value": total_mem}
     json_body = [ins]
 
-    dbData.insert({"ola": "aqui"})
+    dbData.insert({"total": total_mem})
 
+    os.system('python3 Logs/apache-fake-log-gen.py -n 100 -o LOG -p Logs/StoredLogs/')
+
+    print(LogsTreatment.getLogsInfo("Logs/StoredLogs"))
     # Find ALL
     print(dbData.all())
 
