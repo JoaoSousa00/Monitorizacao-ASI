@@ -7,7 +7,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Ligacao ao TinyDB
-dbData = TinyDB('DataBase/data')  # Guarda os dados das máquinas
+dbData = TinyDB('DataBase/data', sort_keys=True, indent=4, separators=(',', ': '))  # Guarda os dados das máquinas
 
 
 @app.route('/configuration', methods=['POST'])  # GET requests will be blocked
@@ -41,10 +41,10 @@ def setData():
     so = req_data['so']
 
     ins = {}
-    ins['measurement'] = "memory"
-    ins["tags"] = req_data
-    ins["time"] = datetime.now()
-    ins["fields"] = {"value": ip}
+    ins['token'] = "memory"
+    ins["data"] = req_data
+    ins["valores"] = datetime.now()
+    ins["expressoes"] = {"value": ip}
     json_body = [ins]
 
     dbData.insert({"ip": ip})
