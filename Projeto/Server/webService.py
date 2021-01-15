@@ -43,10 +43,15 @@ def setData():
 
     print(req_data)
 
-    # ip = req_data['ip']
-    # so = req_data['so']
+    # Ver se já tem a key na BD:
+    # -> Se houver vamos dar append dos dados
+    # -> Se não houver vamos simplesmente adicionar os dados que vieram
 
-    # dbData.insert({"ip": ip})
+    if True:
+        print("ola")
+        # Ir buscar o json da key e depois fazer um upsert lá
+    else:
+        dbData.insert(req_data)
 
     return {"status": str(200)}
 
