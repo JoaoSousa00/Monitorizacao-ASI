@@ -6,7 +6,7 @@ def getNumberCPUs():
     return psutil.cpu_count(logical=False)
 
 
-def getPercentageUsageCPU(file_loc):
+def getPercentageUsageCPU():
     """Retorna a percentagem média de uso dos CPUs na máquina"""
     return psutil.cpu_percent(interval=1)
 

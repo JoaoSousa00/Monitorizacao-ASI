@@ -46,5 +46,5 @@ def getLogsInfo(path: str):
                     if match_wp_admin_error:
                         count_wp_admin_error += 1
 
-    return [count_success, count_request_error, count_server_error, count_wp_admin_error]
-
+    return {"200": str(count_success), "4xx": str(count_request_error), "5xx": str(count_server_error),
+            "AdminError": str(count_wp_admin_error)}

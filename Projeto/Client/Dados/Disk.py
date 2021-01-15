@@ -16,23 +16,25 @@ def getDiskInfo():
         try:
             # Dados de uma partição
             partition_usage = psutil.disk_usage(partition.mountpoint)
+
             disk = {"Mountpoint": partition.mountpoint, "DiskTotal": partition_usage.total,
                     "DiskUsage": partition_usage.used, "DiskFree": partition_usage.free,
                     "DiskPercent ": partition_usage.percent}
+
+            if platform.system() == "Linux":
+                # Se for Linux vai também buscar os dados dos inodes
+                inodes = os.statvfs(partition.mountpoint)
+
+                # Calcula-se a percentagem fazendo a divisao dos inodes free pelo total inodes e multiplicando por 100
+                percentage_inodes = (float(inodes.f_ffree) / inodes.f_files) * 100
+
+                disk.update({"InodesPercent": percentage_inodes})
+
         except PermissionError:
             print("Erro ao acessar as particoes do disco.")
             continue
 
-        if platform.system() == "Linux":
-            # Se for Linux vai também buscar os dados dos inodes
-            inodes = os.statvfs(partition.mountpoint)
-
-            # Calcula-se a percentagem fazendo a divisao dos inodes free pelo total de inodes e multiplicando por 100
-            percentage_inodes = (float(inodes.f_ffree) / inodes.f_files) * 100
-
-            disk.update({"InodesPercent": percentage_inodes})
-
-    # Guardar os dados de cada partição
-    data.append(disk)
+        # Guardar os dados de cada partição
+        data.append(disk)
 
     return data

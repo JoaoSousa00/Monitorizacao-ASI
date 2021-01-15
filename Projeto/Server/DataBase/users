@@ -1,0 +1,9 @@
+{
+    "_default": {
+        "1": {
+            "IP": "10.10.10.1",
+            "Key": "cd14fc998670c7a7b8cac07ad42e9546cc113f92b6fa8dbfe46ea6254ed3969dd2346d2833da0973cb22a8efd0a9302787e330fa253acb516e0b9554cf1ee102",
+            "SO": "Windows"
+        }
+    }
+}
