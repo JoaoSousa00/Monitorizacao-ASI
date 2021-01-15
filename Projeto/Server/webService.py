@@ -4,11 +4,13 @@ from flask import Flask, request
 from tinydb import TinyDB, Query
 from datetime import datetime
 
+from tinydb.operations import add
+
 app = Flask(__name__)
 
 # Ligacao ao TinyDB
-dbData = TinyDB('DataBase/data', sort_keys=True, indent=4)  # Guarda os dados das máquinas
 dbUsers = TinyDB('DataBase/users', sort_keys=True, indent=4)  # Guarda as informações das máquinas
+dbData = TinyDB('DataBase/data', sort_keys=True, indent=4)  # Guarda os dados das máquinas
 
 
 @app.route('/configuration', methods=['POST'])  # GET requests will be blocked
@@ -43,17 +45,20 @@ def setData():
 
     print(req_data)
 
-    # Ver se já tem a key na BD:
-    # -> Se houver vamos dar append dos dados
-    # -> Se não houver vamos simplesmente adicionar os dados que vieram
+    # variável para verifcar se esta key já está na base de dados
+    exists = dbData.search((Query()['Key'] == req_data['Key']))
 
-    if True:
-        print("ola")
-        # Ir buscar o json da key e depois fazer um upsert lá
+    if exists:
+        # Se já existir dados para aquela key vamos dar append dos novos valores
+        print("A acrescentar os novos valores aos dados antigos da máquina...")
+        dbData.update(add('Values', req_data['Values']), (Query()['Key'] == req_data['Key']))
     else:
-        dbData.insert(req_data)
+        # Se a key não existir então vamos adiciona-la e aos valores
+        print("A adicionar valores e na base de dados...")
+        dbUsers.insert(req_data)
 
-    return {"status": str(200)}
+    print("Valores adicionados")
+    return {"status": str(200), "message": "Dados recebidos e guardados com sucesso."}
 
 
 if __name__ == '__main__':

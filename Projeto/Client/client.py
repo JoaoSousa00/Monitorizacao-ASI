@@ -66,8 +66,9 @@ def sendData(key):
     # Gerar logs
     os.system('python3 Logs/apache-fake-log-gen.py -n 10 -o LOG -p Logs/StoredLogs/')
 
+    # Tratar dos logs
     logsData = LogsTreatment.getLogsInfo("Logs/StoredLogs")
-    print(logsData)
+
     print("Informação recolhida\nA preparar envio dos dados...")
 
     # Aqui junta-se todos os dados da monitorização em formato json
@@ -78,8 +79,9 @@ def sendData(key):
 
     res = requests.post('http://localhost:5000/setData', json=generalData)
 
-    if res.ok:
+    if res.json()['status'] == "200":
         print("Dados enviados com sucesso")
+        print("Resposta do servidor: " + res.json()['message'])
     else:
         print("O envio de dados não teve sucesso")
 

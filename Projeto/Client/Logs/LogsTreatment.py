@@ -9,7 +9,7 @@ def getLogsInfo(path: str):
     :param path: Caminho da pasta que contêm os logs
     :type path: str
 
-    Returns: Retorna um array com 4 valores:
+    Returns: Retorna um json com 4 valores:
         *Nº de Logs com status 200;
 
         *Nº de Logs com status 4XX;
@@ -27,6 +27,7 @@ def getLogsInfo(path: str):
     pattern4 = re.compile(r"^.*/wp-admin\sHTTP/1.0\"\s[4-5]\d{2}.*$")
     count_wp_admin_error = 0
 
+    # Para cada ficheiro no caminho passado vai verificar se o ficheiro é .log e se for faz contas
     for f in os.listdir(path):
         if f.endswith(".log"):
             with open(path + "/" + f) as fp:
