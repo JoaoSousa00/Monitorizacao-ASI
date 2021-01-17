@@ -75,11 +75,11 @@ def sendData(key):
     monitData = {"Memory": memoryData, "CPU": cpuData, "Disk": diskData, "Ports": portsData, "Logs": logsData}
 
     # Agora junta-se a key com os dados da monitorização num json para se poder mandar para o servidor
-    generalData = {"Key": key, "Values": [{date: monitData}]}
+    generalData = {"Key": key, "Information": [{'Date': date, 'Values': monitData}]}
 
     res = requests.post('http://localhost:5000/setData', json=generalData)
 
-    if res.json()['status'] == "200":
+    if res.json()["status"] == "200":
         print("Dados enviados com sucesso")
         print("Resposta do servidor: " + res.json()['message'])
     else:

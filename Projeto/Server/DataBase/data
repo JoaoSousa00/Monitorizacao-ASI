@@ -1,32 +1,32 @@
 {
     "_default": {
         "1": {
-            "Key": "cd12fc998670c7a7b8cac07ad42e9546cc113f92b6fa8dbfe46ea6254ed3969dd2346d2833da0973cb22a8efd0a9302787e330fa253acb516e0b9554cf1ee103",
-            "Values": [
+            "Information": [
                 {
-                    "15/01/2021 15:58:57": {
+                    "Date": "17/01/2021 22:56:45",
+                    "Values": {
                         "CPU": {
                             "Number": 6,
-                            "Percentage": 7.0
+                            "Percentage": 12.3
                         },
                         "Disk": [
                             {
-                                "DiskFree": 17735233536,
-                                "DiskPercent ": 93.0,
+                                "DiskFree": 15876894720,
+                                "DiskPercent ": 93.8,
                                 "DiskTotal": 254857441280,
-                                "DiskUsage": 237122207744,
+                                "DiskUsage": 238980546560,
                                 "Mountpoint": "C:\\"
                             }
                         ],
                         "Logs": {
-                            "200": "97",
+                            "200": "417",
                             "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "1"
+                            "5xx": "6",
+                            "AdminError": "3"
                         },
                         "Memory": {
-                            "Free": 2526232576,
-                            "InUse": 5898342400,
+                            "Free": 927694848,
+                            "InUse": 7496880128,
                             "Total": 8424574976
                         },
                         "Ports": {
@@ -36,29 +36,30 @@
                     }
                 },
                 {
-                    "15/01/2021 16:02:11": {
+                    "Date": "17/01/2021 23:00:28",
+                    "Values": {
                         "CPU": {
                             "Number": 6,
-                            "Percentage": 6.8
+                            "Percentage": 3.1
                         },
                         "Disk": [
                             {
-                                "DiskFree": 17736777728,
-                                "DiskPercent ": 93.0,
+                                "DiskFree": 15945990144,
+                                "DiskPercent ": 93.7,
                                 "DiskTotal": 254857441280,
-                                "DiskUsage": 237120663552,
+                                "DiskUsage": 238911451136,
                                 "Mountpoint": "C:\\"
                             }
                         ],
                         "Logs": {
-                            "200": "107",
+                            "200": "437",
                             "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "1"
+                            "5xx": "6",
+                            "AdminError": "3"
                         },
                         "Memory": {
-                            "Free": 2427486208,
-                            "InUse": 5997088768,
+                            "Free": 874278912,
+                            "InUse": 7550296064,
                             "Total": 8424574976
                         },
                         "Ports": {
@@ -68,29 +69,30 @@
                     }
                 },
                 {
-                    "15/01/2021 16:07:21": {
+                    "Date": "17/01/2021 23:05:01",
+                    "Values": {
                         "CPU": {
                             "Number": 6,
-                            "Percentage": 5.3
+                            "Percentage": 4.0
                         },
                         "Disk": [
                             {
-                                "DiskFree": 17729249280,
-                                "DiskPercent ": 93.0,
+                                "DiskFree": 13743386624,
+                                "DiskPercent ": 94.6,
                                 "DiskTotal": 254857441280,
-                                "DiskUsage": 237128192000,
+                                "DiskUsage": 241114054656,
                                 "Mountpoint": "C:\\"
                             }
                         ],
                         "Logs": {
-                            "200": "117",
+                            "200": "447",
                             "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "1"
+                            "5xx": "6",
+                            "AdminError": "3"
                         },
                         "Memory": {
-                            "Free": 2100178944,
-                            "InUse": 6324396032,
+                            "Free": 740712448,
+                            "InUse": 7683862528,
                             "Total": 8424574976
                         },
                         "Ports": {
@@ -100,29 +102,30 @@
                     }
                 },
                 {
-                    "15/01/2021 16:09:10": {
+                    "Date": "17/01/2021 23:10:12",
+                    "Values": {
                         "CPU": {
                             "Number": 6,
-                            "Percentage": 11.5
+                            "Percentage": 22.8
                         },
                         "Disk": [
                             {
-                                "DiskFree": 17732907008,
-                                "DiskPercent ": 93.0,
+                                "DiskFree": 13746880512,
+                                "DiskPercent ": 94.6,
                                 "DiskTotal": 254857441280,
-                                "DiskUsage": 237124534272,
+                                "DiskUsage": 241110560768,
                                 "Mountpoint": "C:\\"
                             }
                         ],
                         "Logs": {
-                            "200": "126",
+                            "200": "456",
                             "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "2"
+                            "5xx": "6",
+                            "AdminError": "3"
                         },
                         "Memory": {
-                            "Free": 2215067648,
-                            "InUse": 6209507328,
+                            "Free": 878116864,
+                            "InUse": 7546458112,
                             "Total": 8424574976
                         },
                         "Ports": {
@@ -132,29 +135,30 @@
                     }
                 },
                 {
-                    "15/01/2021 16:14:20": {
+                    "Date": "17/01/2021 23:13:45",
+                    "Values": {
                         "CPU": {
                             "Number": 6,
-                            "Percentage": 16.6
+                            "Percentage": 5.8
                         },
                         "Disk": [
                             {
-                                "DiskFree": 17732767744,
-                                "DiskPercent ": 93.0,
+                                "DiskFree": 13744762880,
+                                "DiskPercent ": 94.6,
                                 "DiskTotal": 254857441280,
-                                "DiskUsage": 237124673536,
+                                "DiskUsage": 241112678400,
                                 "Mountpoint": "C:\\"
                             }
                         ],
                         "Logs": {
-                            "200": "136",
+                            "200": "465",
                             "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "2"
+                            "5xx": "7",
+                            "AdminError": "3"
                         },
                         "Memory": {
-                            "Free": 1884090368,
-                            "InUse": 6540505088,
+                            "Free": 806670336,
+                            "InUse": 7617904640,
                             "Total": 8424574976
                         },
                         "Ports": {
@@ -164,477 +168,30 @@
                     }
                 },
                 {
-                    "15/01/2021 16:19:30": {
+                    "Date": "17/01/2021 23:18:33",
+                    "Values": {
                         "CPU": {
                             "Number": 6,
-                            "Percentage": 2.6
+                            "Percentage": 2.8
                         },
                         "Disk": [
                             {
-                                "DiskFree": 17739988992,
-                                "DiskPercent ": 93.0,
+                                "DiskFree": 14247407616,
+                                "DiskPercent ": 94.4,
                                 "DiskTotal": 254857441280,
-                                "DiskUsage": 237117452288,
+                                "DiskUsage": 240610033664,
                                 "Mountpoint": "C:\\"
                             }
                         ],
                         "Logs": {
-                            "200": "146",
+                            "200": "475",
                             "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "2"
+                            "5xx": "7",
+                            "AdminError": "3"
                         },
                         "Memory": {
-                            "Free": 1320964096,
-                            "InUse": 7103610880,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:24:41": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 2.2
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17744289792,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237113151488,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "156",
-                            "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1661960192,
-                            "InUse": 6762614784,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:29:51": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 3.6
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17740374016,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237117067264,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "165",
-                            "4xx": "0",
-                            "5xx": "1",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1583157248,
-                            "InUse": 6841417728,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:35:02": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 1.4
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17740058624,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237117382656,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "174",
-                            "4xx": "0",
-                            "5xx": "2",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1651793920,
-                            "InUse": 6772781056,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:40:12": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 11.3
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17738780672,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237118660608,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "184",
-                            "4xx": "0",
-                            "5xx": "2",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1462706176,
-                            "InUse": 6961868800,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:45:22": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 3.4
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17737699328,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237119741952,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "192",
-                            "4xx": "0",
-                            "5xx": "2",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1932713984,
-                            "InUse": 6491860992,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:50:32": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 0.9
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17740038144,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237117403136,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "202",
-                            "4xx": "0",
-                            "5xx": "2",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 2095394816,
-                            "InUse": 6329180160,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 16:55:43": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 2.3
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17725526016,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237131915264,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "212",
-                            "4xx": "0",
-                            "5xx": "2",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 2052136960,
-                            "InUse": 6372438016,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:00:53": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 0.1
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17738743808,
-                                "DiskPercent ": 93.0,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237118697472,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "222",
-                            "4xx": "0",
-                            "5xx": "2",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 2026692608,
-                            "InUse": 6397882368,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:06:03": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 0.4
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17564495872,
-                                "DiskPercent ": 93.1,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237292945408,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "230",
-                            "4xx": "0",
-                            "5xx": "3",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 2195652608,
-                            "InUse": 6228922368,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:11:13": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 0.5
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17564717056,
-                                "DiskPercent ": 93.1,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237292724224,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "240",
-                            "4xx": "0",
-                            "5xx": "3",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 2271109120,
-                            "InUse": 6153465856,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:16:23": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 31.1
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17554075648,
-                                "DiskPercent ": 93.1,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237303365632,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "247",
-                            "4xx": "0",
-                            "5xx": "3",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1889923072,
-                            "InUse": 6534651904,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:21:35": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 31.7
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17551372288,
-                                "DiskPercent ": 93.1,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237306068992,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "256",
-                            "4xx": "0",
-                            "5xx": "3",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1812176896,
-                            "InUse": 6612398080,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:26:46": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 25.4
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17551540224,
-                                "DiskPercent ": 93.1,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237305901056,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "265",
-                            "4xx": "0",
-                            "5xx": "3",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1868349440,
-                            "InUse": 6556225536,
-                            "Total": 8424574976
-                        },
-                        "Ports": {
-                            "1024": false,
-                            "8080": false
-                        }
-                    }
-                },
-                {
-                    "15/01/2021 17:31:57": {
-                        "CPU": {
-                            "Number": 6,
-                            "Percentage": 1.4
-                        },
-                        "Disk": [
-                            {
-                                "DiskFree": 17560076288,
-                                "DiskPercent ": 93.1,
-                                "DiskTotal": 254857441280,
-                                "DiskUsage": 237297364992,
-                                "Mountpoint": "C:\\"
-                            }
-                        ],
-                        "Logs": {
-                            "200": "275",
-                            "4xx": "0",
-                            "5xx": "3",
-                            "AdminError": "2"
-                        },
-                        "Memory": {
-                            "Free": 1934020608,
-                            "InUse": 6490554368,
+                            "Free": 1053323264,
+                            "InUse": 7371251712,
                             "Total": 8424574976
                         },
                         "Ports": {
@@ -643,7 +200,211 @@
                         }
                     }
                 }
-            ]
+            ],
+            "Key": "8061cd8c1aa96eb874b19b16a3a802907ea3f1323cac0ad5095a3bcbfeaf443703c18cf119391ec429cbea747264c94751917ff904a8a1e640958f709f3d218a"
+        },
+        "2": {
+            "Information": [
+                {
+                    "Date": "17/01/2021 23:19:13",
+                    "Values": {
+                        "CPU": {
+                            "Number": 6,
+                            "Percentage": 3.1
+                        },
+                        "Disk": [
+                            {
+                                "DiskFree": 16172539904,
+                                "DiskPercent ": 93.7,
+                                "DiskTotal": 254857441280,
+                                "DiskUsage": 238684901376,
+                                "Mountpoint": "C:\\"
+                            }
+                        ],
+                        "Logs": {
+                            "200": "485",
+                            "4xx": "0",
+                            "5xx": "7",
+                            "AdminError": "3"
+                        },
+                        "Memory": {
+                            "Free": 1282367488,
+                            "InUse": 7142207488,
+                            "Total": 8424574976
+                        },
+                        "Ports": {
+                            "1024": false,
+                            "8080": false
+                        }
+                    }
+                },
+                {
+                    "Date": "17/01/2021 23:24:24",
+                    "Values": {
+                        "CPU": {
+                            "Number": 6,
+                            "Percentage": 1.3
+                        },
+                        "Disk": [
+                            {
+                                "DiskFree": 14557286400,
+                                "DiskPercent ": 94.3,
+                                "DiskTotal": 254857441280,
+                                "DiskUsage": 240300154880,
+                                "Mountpoint": "C:\\"
+                            }
+                        ],
+                        "Logs": {
+                            "200": "494",
+                            "4xx": "0",
+                            "5xx": "8",
+                            "AdminError": "3"
+                        },
+                        "Memory": {
+                            "Free": 1176936448,
+                            "InUse": 7247638528,
+                            "Total": 8424574976
+                        },
+                        "Ports": {
+                            "1024": false,
+                            "8080": false
+                        }
+                    }
+                },
+                {
+                    "Date": "17/01/2021 23:29:36",
+                    "Values": {
+                        "CPU": {
+                            "Number": 6,
+                            "Percentage": 4.6
+                        },
+                        "Disk": [
+                            {
+                                "DiskFree": 14554087424,
+                                "DiskPercent ": 94.3,
+                                "DiskTotal": 254857441280,
+                                "DiskUsage": 240303353856,
+                                "Mountpoint": "C:\\"
+                            }
+                        ],
+                        "Logs": {
+                            "200": "504",
+                            "4xx": "0",
+                            "5xx": "8",
+                            "AdminError": "3"
+                        },
+                        "Memory": {
+                            "Free": 1314598912,
+                            "InUse": 7109976064,
+                            "Total": 8424574976
+                        },
+                        "Ports": {
+                            "1024": false,
+                            "8080": false
+                        }
+                    }
+                },
+                {
+                    "Date": "17/01/2021 23:34:47",
+                    "Values": {
+                        "CPU": {
+                            "Number": 6,
+                            "Percentage": 2.4
+                        },
+                        "Disk": [
+                            {
+                                "DiskFree": 14552309760,
+                                "DiskPercent ": 94.3,
+                                "DiskTotal": 254857441280,
+                                "DiskUsage": 240305131520,
+                                "Mountpoint": "C:\\"
+                            }
+                        ],
+                        "Logs": {
+                            "200": "513",
+                            "4xx": "0",
+                            "5xx": "9",
+                            "AdminError": "3"
+                        },
+                        "Memory": {
+                            "Free": 1228541952,
+                            "InUse": 7196033024,
+                            "Total": 8424574976
+                        },
+                        "Ports": {
+                            "1024": false,
+                            "8080": false
+                        }
+                    }
+                },
+                {
+                    "Date": "17/01/2021 23:39:58",
+                    "Values": {
+                        "CPU": {
+                            "Number": 6,
+                            "Percentage": 9.8
+                        },
+                        "Disk": [
+                            {
+                                "DiskFree": 14552723456,
+                                "DiskPercent ": 94.3,
+                                "DiskTotal": 254857441280,
+                                "DiskUsage": 240304717824,
+                                "Mountpoint": "C:\\"
+                            }
+                        ],
+                        "Logs": {
+                            "200": "523",
+                            "4xx": "0",
+                            "5xx": "9",
+                            "AdminError": "3"
+                        },
+                        "Memory": {
+                            "Free": 1349357568,
+                            "InUse": 7075217408,
+                            "Total": 8424574976
+                        },
+                        "Ports": {
+                            "1024": false,
+                            "8080": false
+                        }
+                    }
+                },
+                {
+                    "Date": "17/01/2021 23:45:09",
+                    "Values": {
+                        "CPU": {
+                            "Number": 6,
+                            "Percentage": 6.7
+                        },
+                        "Disk": [
+                            {
+                                "DiskFree": 14538928128,
+                                "DiskPercent ": 94.3,
+                                "DiskTotal": 254857441280,
+                                "DiskUsage": 240318513152,
+                                "Mountpoint": "C:\\"
+                            }
+                        ],
+                        "Logs": {
+                            "200": "533",
+                            "4xx": "0",
+                            "5xx": "9",
+                            "AdminError": "3"
+                        },
+                        "Memory": {
+                            "Free": 1203085312,
+                            "InUse": 7221489664,
+                            "Total": 8424574976
+                        },
+                        "Ports": {
+                            "1024": false,
+                            "8080": false
+                        }
+                    }
+                }
+            ],
+            "Key": "c6c34dd5a9089a9e86714fd0ce73eeb552286fc3cc9a348322c7234e3958920060b2dbe7550e2ec40773d6c3df75fee6373ea29aff648decc00fdad2e87bce59"
         }
     }
 }

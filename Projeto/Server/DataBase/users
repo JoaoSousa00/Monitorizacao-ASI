@@ -1,8 +1,13 @@
 {
     "_default": {
         "1": {
+            "IP": "10.10.10.2",
+            "Key": "8061cd8c1aa96eb874b19b16a3a802907ea3f1323cac0ad5095a3bcbfeaf443703c18cf119391ec429cbea747264c94751917ff904a8a1e640958f709f3d218a",
+            "SO": "Windows"
+        },
+        "2": {
             "IP": "10.10.10.1",
-            "Key": "cd12fc998670c7a7b8cac07ad42e9546cc113f92b6fa8dbfe46ea6254ed3969dd2346d2833da0973cb22a8efd0a9302787e330fa253acb516e0b9554cf1ee103",
+            "Key": "c6c34dd5a9089a9e86714fd0ce73eeb552286fc3cc9a348322c7234e3958920060b2dbe7550e2ec40773d6c3df75fee6373ea29aff648decc00fdad2e87bce59",
             "SO": "Windows"
         }
     }
